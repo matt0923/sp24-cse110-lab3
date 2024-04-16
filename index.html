@@ -62,12 +62,29 @@
       <video width="320" height="240" controls>
         <source src="26e15346-506d-49c6-ad7c-58bdd6ec2deb.mp4" type="video/mp4">
       </video>
-      <form action="/action_page.php" method="get">
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"><br><br>
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname"><br><br>
-      <input type="submit" value="Submit">
+      <hr>
+      <form>
+        <fieldset>
+          <legend>Let me know what you think about my website!</legend>
+            <label for="fname">Full name:</label>
+            <input type="text" id="name" name="name"><br>
+            <input for="feedback" id="feedback" name="feedback"><br>
+            <textarea id="feedback" name="feedback" rows="30" cols="30">Leave your feedbak in this text box!.</textarea><br>
+            <input type="submit" value="Submit">
+            <label for="good time">Check the box if you had a fun time checking out my website: </label>
+            <input type="checkbox" id="good time" name="good time" value="yes"><br>
+            <label for="gender">Enter gender:</label>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>label><br>
+            <label for="date">Date you visited my site:</label>
+            <input type="date" id="date" name="date"><br>
+            <label for="rigged">Is this the coolest website you've ever visited?</label>
+            <select id="rigged" name="rigged">
+              <option value="yes">Yes</option>
+              <option value="yes">Yes</option>
+            </select><br>
+          </fieldset>
     </form>
       <footer>
         <nav>
