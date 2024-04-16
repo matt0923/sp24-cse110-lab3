@@ -70,7 +70,16 @@
             <input type="text" id="name" name="name"><br>
             <input for="feedback" id="feedback" name="feedback"><br>
             <textarea id="feedback" name="feedback" rows="30" cols="30">Leave your feedbak in this text box!.</textarea><br>
-            <input type="submit" value="Submit">
+            <label for="year">What year are you in college:</label><br>
+            <input type="text" id="year" name="year" list="year">
+            <datalist id="year">
+              <option value="First">
+              <option value="Second">
+              <option value="Third">
+              <option value="Fourth">
+              <option value="More than fourth">
+              <option value="Not in college">
+            </datalist><br>
             <label for="good time">Check the box if you had a fun time checking out my website: </label>
             <input type="checkbox" id="good time" name="good time" value="yes"><br>
             <label for="gender">Enter gender:</label>
@@ -84,6 +93,7 @@
               <option value="yes">Yes</option>
               <option value="yes">Yes</option>
             </select><br>
+            <button type="submit" value="Submit">
           </fieldset>
     </form>
       <footer>
