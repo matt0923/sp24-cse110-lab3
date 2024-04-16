@@ -72,24 +72,28 @@
           <label for="feedback">Feedback:</label><br>
           <textarea id="feedback" name="feedback" rows="30" cols="30">Leave your feedback in this text box!.</textarea><br>
           <label for="year">What year are you in college:</label><br>
-          <input type="text" id="year" name="year" list="year-list">
-          <datalist id="year-list">
-            <option value="First">
-            <option value="Second">
-            <option value="Third">
-            <option value="Fourth">
-            <option value="More than fourth">
-            <option value="Not in college">
-          </datalist><br>
+          <fieldset>
+            <input type="text" id="year" name="year" list="year-list">
+            <datalist id="year-list">
+              <option value="First">
+              <option value="Second">
+              <option value="Third">
+              <option value="Fourth">
+              <option value="More than fourth">
+              <option value="Not in college">
+            </datalist><br>
+          </fieldset>
           <label for="good_time">Check the box if you had a fun time checking out my website: </label><br>
           <input type="checkbox" id="good_time" name="good_time" value="yes"><br>
-          <label for="gender">Enter gender:</label><br>
-          <label for="male">Male:</label>
-          <input type="radio" id="male" name="gender" value="male">Male<br>
-          <label for="female">Female:</label>
-          <input type="radio" id="female" name="gender" value="female">Female<br>
-          <label for="other">Other:</label>
-          <input type="radio" id="other" name="gender" value="other">Other<br>
+          <fieldset>
+            <label for="gender">Enter gender:</label><br>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male">Male<br>
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" value="female">Female<br>
+            <label for="other">Other:</label>
+            <input type="radio" id="other" name="gender" value="other">Other<br>
+          </fieldset>
           <label for="date">Date you visited my site:</label>
           <input type="date" id="date" name="date"><br>
           <label for="rigged">Is this the coolest website you've ever visited?</label>
