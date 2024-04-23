@@ -3,7 +3,7 @@
 | Team Name | The Infinite Loops |
 | ----------- | ----------- |
 | Direct Supervisor(s) | Ramtin Tajbackhsh and Lindsey Rappaport |
-| Table of Contents | Day 1 |
+| Table of Contents | [Day 1](https://github.com/matt0923/GitHubPagesProject/blob/main/index.md#Monday-4/22/2024) |
 
 ## Monday 4/22/2024
 | Name | Priorities | Progress | Problems |
