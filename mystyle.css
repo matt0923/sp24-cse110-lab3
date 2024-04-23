@@ -6,33 +6,38 @@ body {
   background-color: var(--main-bg-color, #555);
 }
 
-  h1 {
-   color: rgba(0, 1, 0, 0);
-   margin-top: 10px;
-   margin-right: 20px;
-   margin-bottom: 10px;
-   margin-left: 20px;
-  }
+h1 {
+  color: rgba(0, 1, 0, 0);
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
 
-  h2 {
-    color: hsla(0, 100%, 50%, 1);
-    margin: 0.21in;
-  }
+h2 {
+  color: hsla(0, 100%, 50%, 1);
+  margin: 0.21in;
+}
 
-  h3 {
-    color:  color(display-p3 0.5 0.2 0.1);
-    margin: 1.25pc;
-  }
+h3 {
+  color:  color(display-p3 0.5 0.2 0.1);
+  margin: 1.25pc;
+}
 
-  p {
-    color: color-mix(in srgb, rgb(255, 0, 0) 50%, rgb(0, 0, 255) 50%);
-    margin: 1.2em;
-  }
+p {
+  color: color-mix(in srgb, rgb(255, 0, 0) 50%, rgb(0, 0, 255) 50%);
+  margin: 1.2em;
+}
 
-  .text {
-    font-size: 1.5rem;
+.text {
+  font-size: 1.5rem;
 }
 
 #audio {
   margin: .5vh;
+}
+
+.centered {
+  width: 50%;
+  margin: 0 auto;
 }
