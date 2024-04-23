@@ -38,6 +38,10 @@ p {
 
 #audio {
   margin: .5vh;
+  border-style: solid; 
+  border-color: red;
+  border-width: 2px;
+  border-radius: 10px;
 }
 
 .centered {
