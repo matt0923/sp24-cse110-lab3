@@ -39,6 +39,7 @@ p {
 }
 
 #audio {
+  position: static;
   margin: .5vh;
   border-style: solid; 
   border-color: red;
@@ -47,6 +48,7 @@ p {
 }
 
 #video {
+  position: fixed;
   height: 150px;
   width: 100%;
   max-width: 1200px;
@@ -58,7 +60,7 @@ p {
 }
 
 ol li {
-  display: block
+  display: block;
 }
 
 ul li {
