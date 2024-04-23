@@ -70,3 +70,7 @@ ul li {
 button:hover {
   color: blue;
 }
+
+summary:active {
+  color: blue;
+}
