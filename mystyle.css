@@ -1,6 +1,6 @@
 :root {
   --main-bg-color:  orange;
-
+}
 /* This is changing the color of the body element in my document */
 body {
   background-color: var(--main-bg-color, #555);
