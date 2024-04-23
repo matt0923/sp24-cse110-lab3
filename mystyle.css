@@ -50,3 +50,11 @@ p {
   width: 50%;
   margin: 0 auto;
 }
+
+ol li {
+  display: block
+}
+
+ul li {
+  display: inline-block;
+}
