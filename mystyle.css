@@ -1,7 +1,8 @@
 /* This is changing the color of the body element in my document */
-:root {
-  --main-color: lightblue;
+body {
+  background-color: lightblue;
 }
+
 /* This is changing the color of the h1 element in my document */
 h1 {
   color: snow;
