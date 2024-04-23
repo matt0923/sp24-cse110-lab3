@@ -6,12 +6,3 @@ body {
   background-color: var(--main-bg-color, #555);
 }
 
-/* This is changing the color of the h1 element in my document */
-h1 {
-  color: snow;
-  margin-left: 20px;
-}
-
-p {
-  color: snow;
-}
