@@ -1,6 +1,9 @@
+:root {
+  --main-bg-color: #333;
+
 /* This is changing the color of the body element in my document */
 body {
-  background-color: lightblue;
+  background-color: var(--main-bg-color, #555);
 }
 
 /* This is changing the color of the h1 element in my document */
