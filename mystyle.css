@@ -1,6 +1,6 @@
 /* This is changing the color of the body element in my document */
 body {
-  --main-color: black;
+  background-color: black;
 }
 /* This is changing the color of the h1 element in my document */
 h1 {
