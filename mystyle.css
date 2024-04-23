@@ -23,4 +23,13 @@ body {
 
   p {
     color: color-mix(insrgb, rgb(255, 0, 0) 50%, rgb(0, 0, 255) 50%);
+    margin: 1.2em;
   }
+
+  .text {
+    font-size: 1.5rem;
+}
+
+#audio {
+  margin: .5vh;
+}
