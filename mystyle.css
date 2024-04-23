@@ -66,3 +66,7 @@ ol li {
 ul li {
   display: inline-block;
 }
+
+button:hover {
+  color: blue;
+}
