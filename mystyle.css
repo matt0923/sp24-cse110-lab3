@@ -46,6 +46,12 @@ p {
   border-radius: 10px;
 }
 
+#video {
+  height: 150px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 600px;    
+}
 .centered {
   width: 50%;
   margin: 0 auto;
