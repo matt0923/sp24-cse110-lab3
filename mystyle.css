@@ -4,7 +4,6 @@ body {
 }
 /* This is changing the color of the h1 element in my document */
 h1 {
-  background-color: var(--main-color, #bbff00);
   color: snow;
   margin-left: 20px;
 }
