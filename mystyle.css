@@ -1,8 +1,10 @@
+/* This is changing the color of the body element in my document */
 body {
-  background-color: lightblue;
+  --main-color: darkgrey;
 }
-
+/* This is changing the color of the h1 element in my document */
 h1 {
-  color: navy;
+  background-color: var(--main-color, #007bff);
+  color: snow;
   margin-left: 20px;
 }
